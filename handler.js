@@ -987,7 +987,7 @@ if (!('delete' in chat)) chat.delete = false
 if (!('modohorny' in chat)) chat.modohorny = true
 if (!('stickers' in chat)) chat.stickers = false
 if (!('autosticker' in chat)) chat.autosticker = false
-if (!('audios' in chat)) chat.audios = true
+if (!('audios' in chat)) chat.audios = false
 if (!('antiver' in chat)) chat.antiver = false
 if (!('antiPorn' in chat)) chat.antiPorn = true
 if (!('antiLink' in chat)) chat.antiLink = false
@@ -1006,7 +1006,7 @@ if (!('reaction' in chat)) chat.reaction = true
 if (!('viewonce' in chat)) chat.viewonce = false
 if (!('modoadmin' in chat)) chat.modoadmin = false
 if (!('autorespond' in chat)) chat.autorespond = true
-if (!('antitoxic' in chat)) chat.antitoxic = true
+if (!('antitoxic' in chat)) chat.antitoxic = false
 if (!('game' in chat)) chat.game = true
 if (!('game2' in chat)) chat.game2 = true
 if (!('simi' in chat)) chat.simi = false
@@ -1036,7 +1036,7 @@ modohorny: true,
 stickers: false,
 autosticker: false,
 audios: false,
-antiver: true,
+antiver: false,
 antiPorn: true,
 antiLink: false,
 antiLink2: false,
@@ -1054,7 +1054,7 @@ reaction: true,
 viewonce: false,
 modoadmin: false,
 autorespond: true,
-antitoxic: true,
+antitoxic: false,
 game: true,
 game2: true,
 simi: false,
@@ -1078,7 +1078,7 @@ if (!('temporal' in settings)) settings.temporal = false
 if (!('anticommand' in settings)) settings.anticommand = false
 if (!('antiPrivate' in settings)) settings.antiPrivate = false
 if (!('antiCall' in settings)) settings.antiCall = true
-if (!('antiSpam' in settings)) settings.antiSpam = true
+if (!('antiSpam' in settings)) settings.antiSpam = false
 if (!('modoia' in settings)) settings.modoia = false
 if (!('jadibotmd' in settings)) settings.jadibotmd = true
 if (!('prefix' in settings)) settings.prefix = opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®&.\\-.@'
@@ -1091,7 +1091,7 @@ restrict: false,
 temporal: false,
 antiPrivate: false,
 antiCall: true,
-antiSpam: true,
+antiSpam: false,
 modoia: false,
 anticommand: false,
 prefix: opts['prefix'] || '*/i!#$%+£¢€¥^°=¶∆×÷π√✓©®&.\\-.@',

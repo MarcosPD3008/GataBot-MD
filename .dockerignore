@@ -1,0 +1,8 @@
+node_modules
+GataBotSession
+GataJadiBot
+database
+tmp
+*.log
+.git
+.env

@@ -1,0 +1,15 @@
+services:
+  gatabot:
+    build: .
+    container_name: gatabot-md
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./GataBotSession:/app/GataBotSession
+      - ./database:/app/database
+      - ./GataJadiBot:/app/GataJadiBot
+    environment:
+      - TZ=America/Santo_Domingo
+    stdin_open: true
+    tty: true
